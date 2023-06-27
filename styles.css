@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: 250px;
+    margin-right: 19%;
 }
 
 h2 {
@@ -59,7 +60,7 @@ button {
 }
 
 .starbucks {
-    width: 340px;
+    width: 260px;
 }
 
 .texto {
@@ -85,13 +86,13 @@ button {
 
 .circulo {
     position: absolute;
-    width: 100%;
+    width: 65%;
     height: 100%;
     background: #1f991f;
-    top: 0;
-    left: 0;
-    clip-path: circle(600px at right 800px);
+    top: 50%;
+    clip-path: circle(40%);
     z-index: -1;
+    right: 0;
 }
 
 @media (max-width:767px) {

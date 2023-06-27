@@ -27,8 +27,10 @@ function troquei2() {
     paragrafo.style.color = 'white'
 }
 
+/*
 function trocaTudo() {
     circulo.style ='clip-path: circle(40%);'
-    circulo.style.right = "30%"
-    
-}
+    circulo.style.left = '47%' 
+    circulo.style.width ='33%'
+    circulo.style.top = '27%'
+} */
