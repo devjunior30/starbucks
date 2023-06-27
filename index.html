@@ -18,7 +18,8 @@
     <div class="circulo"></div>
 
     <img src="./images/logo.png" alt="LOGO-STARBUCK" class="logo">
-
+    <input id="color" type="radio">
+    
     <div class="conteudo">
 
         <div class="texto">
@@ -31,7 +32,7 @@
                 cupiditate,
                 laborum quidem!</P>
 
-            <button>Seguinte</button>
+            <button onclick="trocaTudo()">Seguinte</button>
 
         </div>
 
@@ -42,28 +43,16 @@
     </div>
     <div class="menu">
         <img src="./images/thumb1.png" class="imagem-baixo"
-            onclick="trocaImagem('./images/thumb1.png'); trocaCor('#1f991f')">>
+            onclick="trocaImagem('./images/thumb1.png'); trocaCor('#1f991f'); trquei()">>
         <img src="./images/thumb2.png" class="imagem-baixo"
-            onclick="trocaImagem('./images/thumb2.png'); trocaCor('#eb7495')">>
+            onclick="trocaImagem('./images/thumb2.png'); trocaCor('#eb7495'); troquei()">>
         <img src="./images/thumb3.png" class="imagem-baixo"
-            onclick="trocaImagem('./images/thumb3.png'); trocaCor('#d752b1')">>
+            onclick="trocaImagem('./images/thumb3.png'); trocaCor('#d752b1'); troquei2()">>
     </div>
 
 
 </body>
 
-<script>
-    let imagem = document.querySelector(".starbucks")
-    let circulo = document.querySelector(".circulo")
-
-    function trocaImagem(endereco) {
-        imagem.src = endereco
-    }
-
-    function trocaCor(cor) {
-        circulo.style.background = cor
-    }
-
-</script>
+<script src="script.js"></script>
 
 </html>
