@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: 250px;
-    margin-right: 19%;
 }
 
 h2 {
@@ -86,13 +85,13 @@ button {
 
 .circulo {
     position: absolute;
-    width: 65%;
-    height: 100%;
+    width: 100%;
+    height: 200vh;
     background: #1f991f;
-    top: 50%;
-    clip-path: circle(40%);
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
     z-index: -1;
-    right: 0;
 }
 
 @media (max-width:767px) {
