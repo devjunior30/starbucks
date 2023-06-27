@@ -12,20 +12,11 @@ function trocaCor(cor) {
     circulo.style.background = cor
 }
 
-function trquei(parametro) {
+function trquei(cor, ) {
     fundo.style.backgroundColor = "	#808080"
-    paragrafo.style.color = 'gold'
+    paragrafo.style.color = cor
 }
 
-function troquei() {
-    fundo.style.backgroundColor ="rgb(105,89,205)"
-    paragrafo.style.color = 'red'
-}
-
-function troquei2() {
-    fundo.style.backgroundColor ="#8B0000"
-    paragrafo.style.color = 'white'
-}
 
 /*
 function trocaTudo() {
@@ -33,4 +24,7 @@ function trocaTudo() {
     circulo.style.left = '47%' 
     circulo.style.width ='33%'
     circulo.style.top = '27%'
+
+
+        TENTAR FAZER QUANDO CLICAR NO BOTÃO RESETA A PAGINA NOVAMENTE/ VOLTE A PAGINA AO NORMAL
 } */
